@@ -9,9 +9,17 @@ background-clip: padding-box;
 
 }
 
+.container{
+    text-align: center;
+    margin-left: 25%;
+    max-width: 1200px;
+    
+}
+
 main{
     background-color: rgb(173, 125, 61);
     border: 1px solid whitesmoke;
+    width: 75%;
 }
 
 a{
@@ -19,11 +27,16 @@ a{
     
 }
 
+nav>ul>:first-child{
+    color: aqua;
+}
+
 .head{
     background-color: rgb(173, 125, 61);
     text-align: center;
     color: rgb(224, 222, 218);
     border: 1px solid whitesmoke;
+    width: 75%;
 }
 
 #logo{
@@ -39,6 +52,9 @@ font-size: xx-large;
 color: azure;
 }
 
+nav{
+    width: 75%;
+}
 
 
 .navlink{
@@ -87,4 +103,8 @@ color: azure;
     font-style: italic;
     text-align: center;
     text-decoration: wavy;
+}
+
+.foot{
+    width: 75%;
 }
